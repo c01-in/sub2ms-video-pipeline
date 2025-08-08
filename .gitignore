@@ -1,0 +1,87 @@
+# =======================================
+# OS-specific files / 系统文件
+# =======================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.Trash-*
+.nfs*
+
+# =======================================
+# Editor / IDE files / 编辑器和IDE
+# =======================================
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# =======================================
+# LaTeX build artifacts / LaTeX编译产物
+# =======================================
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.pdf
+*.dvi
+*.ps
+*.nav
+*.snm
+*.vrb
+
+# =======================================
+# Markdown / Pandoc generated files
+# =======================================
+*.pdf
+*.tex
+*.docx
+*.odt
+
+# =======================================
+# Python (if experiments use Python)
+# =======================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+*.log
+
+# =======================================
+# Data / 实验数据
+# =======================================
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.sqlite
+*.db
+*.bin
+*.npy
+*.npz
+
+# =======================================
+# Temporary / 临时文件
+# =======================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.~lock.*
